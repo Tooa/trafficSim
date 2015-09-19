@@ -1,0 +1,78 @@
+{
+	"name": "Fußgänger laufen in entgegengesetzte Richtungen",
+	"desc": "In dieser Simulation laufen zufällig verteilte Fußgänger einen Gang entlang in entgegengesetze Richtungen. An den Enden sind je 4 Ziele platziert.",
+	"psway": 5,
+	"step_interval": 100,
+	"mapfile": "floor.map",
+	"show_potential": "04",
+	"targets": [
+		{
+			"name": "01",
+			"pos": [1,1]
+		},
+		{
+			"name": "02",
+			"pos": [2,1]
+		},
+		{
+			"name": "03",
+			"pos": [3,1]
+		},
+		{
+			"name": "04",
+			"pos": [4,1]
+		},
+		{
+			"name": "05",
+			"pos": [5,1]
+		},
+		{
+			"name": "06",
+			"pos": [6,1]
+		},
+		{
+			"name": "07",
+			"pos": [7,1]
+		},
+		{
+			"name": "08",
+			"pos": [8,1]
+		},
+		{
+			"name": "11",
+			"pos": [1,48]
+		},
+		{
+			"name": "12",
+			"pos": [2,48]
+		},
+		{
+			"name": "13",
+			"pos": [3,48]
+		},
+		{
+			"name": "14",
+			"pos": [4,48]
+		},
+		{
+			"name": "15",
+			"pos": [5,48]
+		},
+		{
+			"name": "16",
+			"pos": [6,48]
+		},
+		{
+			"name": "17",
+			"pos": [7,48]
+		},
+		{
+			"name": "18",
+			"pos": [8,48]
+		}],
+	"walkers": [],
+	"num_rnd_walkers": 200,
+	"rnd_walkers_direction": 9,
+	"rnd_walkers_orientation_time_min": 0,
+	"rnd_walkers_orientation_time_max": 0
+}

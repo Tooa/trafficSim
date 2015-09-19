@@ -1,0 +1,28 @@
+{
+	"name": "test",
+	"psway": 5,
+	"step_interval": 100,
+	"mapfile": "test.map",
+	"show_potential": "main_gate2",
+	"targets": [
+		{
+			"name": "main_gate",
+			"pos": [2,3]
+		},
+		{
+			"name": "main_gate2",
+			"pos": [3, 15]
+		}],
+	"walkers": [
+		{
+			"pos": [10,8],
+			"direction": 9,
+			"orientation_time": 20,
+			"target_name": "main_gate2"
+		}],
+	"num_rnd_walkers": 20,
+	"rnd_walkers_target": "main_gate",
+	"rnd_walkers_direction": 9,
+	"rnd_walkers_orientation_time_min": 30,
+	"rnd_walkers_orientation_time_max": 100
+}

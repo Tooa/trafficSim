@@ -1,0 +1,38 @@
+{
+	"name": "Quadratischer Raum",
+	"desc": "",
+	"psway": 5,
+	"step_interval": 100,
+	"mapfile": "quadratic_room.map",
+	"show_potential": "04",
+	"targets": [
+		{
+			"name": "01",
+			"pos": [25,12]
+		},
+		{
+			"name": "02",
+			"pos": [25,13]
+		},
+		{
+			"name": "03",
+			"pos": [25,14]
+		},
+		{
+			"name": "04",
+			"pos": [25,15]
+		},
+		{
+			"name": "05",
+			"pos": [25,16]
+		},
+		{
+			"name": "06",
+			"pos": [25,17]
+		}],
+	"walkers": [],
+	"num_rnd_walkers": 400,
+	"rnd_walkers_direction": 9,
+	"rnd_walkers_orientation_time_min": 0,
+	"rnd_walkers_orientation_time_max": 0
+}

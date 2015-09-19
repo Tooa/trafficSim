@@ -1,0 +1,46 @@
+{
+	"name": "Alle Fußgänger laufen direkt auf die Ziele zu",
+	"desc": "In dieser Simulation laufen zufällig verteilte Fußgänger einen Gang entlang. Am Ende sind 8 Ziele platziert.",
+	"psway": 5,
+	"step_interval": 10,
+	"mapfile": "floor.map",
+	"show_potential": "04",
+	"targets": [
+		{
+			"name": "01",
+			"pos": [1,1]
+		},
+		{
+			"name": "02",
+			"pos": [2,1]
+		},
+		{
+			"name": "03",
+			"pos": [3,1]
+		},
+		{
+			"name": "04",
+			"pos": [4,1]
+		},
+		{
+			"name": "05",
+			"pos": [5,1]
+		},
+		{
+			"name": "06",
+			"pos": [6,1]
+		},
+		{
+			"name": "07",
+			"pos": [7,1]
+		},
+		{
+			"name": "08",
+			"pos": [8,1]
+		}],
+	"walkers": [],
+	"num_rnd_walkers": 200,
+	"rnd_walkers_direction": 9,
+	"rnd_walkers_orientation_time_min": 0,
+	"rnd_walkers_orientation_time_max": 0
+}

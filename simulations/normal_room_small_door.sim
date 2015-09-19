@@ -1,0 +1,30 @@
+{
+	"name": "Normaler Raum, schmale Tür",
+	"desc": "",
+	"psway": 5,
+	"step_interval": 100,
+	"mapfile": "normal_room_small_door.map",
+	"show_potential": "04",
+	"targets": [
+		{
+			"name": "01",
+			"pos": [34,13]
+		},
+		{
+			"name": "02",
+			"pos": [34,14]
+		},
+		{
+			"name": "03",
+			"pos": [34,15]
+		},
+		{
+			"name": "04",
+			"pos": [34,16]
+		}],
+	"walkers": [],
+	"num_rnd_walkers": 400,
+	"rnd_walkers_direction": 9,
+	"rnd_walkers_orientation_time_min": 0,
+	"rnd_walkers_orientation_time_max": 0
+}

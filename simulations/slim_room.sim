@@ -1,0 +1,38 @@
+{
+	"name": "Schmaler Raum",
+	"desc": "",
+	"psway": 5,
+	"step_interval": 100,
+	"mapfile": "slim_room.map",
+	"show_potential": "04",
+	"targets": [
+		{
+			"name": "01",
+			"pos": [43,2]
+		},
+		{
+			"name": "02",
+			"pos": [43,3]
+		},
+		{
+			"name": "03",
+			"pos": [43,4]
+		},
+		{
+			"name": "04",
+			"pos": [43,5]
+		},
+		{
+			"name": "04",
+			"pos": [43,6]
+		},
+		{
+			"name": "04",
+			"pos": [43,7]
+		}],
+	"walkers": [],
+	"num_rnd_walkers": 200,
+	"rnd_walkers_direction": 9,
+	"rnd_walkers_orientation_time_min": 0,
+	"rnd_walkers_orientation_time_max": 0
+}

@@ -1,0 +1,38 @@
+{
+	"name": "Normaler Raum",
+	"desc": "",
+	"psway": 5,
+	"step_interval": 100,
+	"mapfile": "normal_room.map",
+	"show_potential": "04",
+	"targets": [
+		{
+			"name": "01",
+			"pos": [34,12]
+		},
+		{
+			"name": "02",
+			"pos": [34,13]
+		},
+		{
+			"name": "03",
+			"pos": [34,14]
+		},
+		{
+			"name": "04",
+			"pos": [34,15]
+		},
+		{
+			"name": "05",
+			"pos": [34,16]
+		},
+		{
+			"name": "06",
+			"pos": [34,17]
+		}],
+	"walkers": [],
+	"num_rnd_walkers": 400,
+	"rnd_walkers_direction": 9,
+	"rnd_walkers_orientation_time_min": 0,
+	"rnd_walkers_orientation_time_max": 0
+}
