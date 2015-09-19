@@ -23,8 +23,37 @@ Predefined simulations can be found in the `simulations` folder.
 
 `./simulation.py simulations/simple.sim`
 
+####Loveparade simulation
 
 ![Simulation Example](https://raw.github.com/tooa/trafficSim/master/example.png)
+
+####Christmas fair simulation
+
+![Simulation Example](https://raw.github.com/tooa/trafficSim/master/example2.png)
+
+
+Create simulations
+-----
+
+| Fieldname   |      Datatype      |  Optional? | Description |
+|-------------|:------------------:|------------|------------ |
+| name        |  string            | no         | Simulation name |
+| psway       |  integer           | no         | Probability that a walker goes off track from the shortest path |
+| step_interval        |  integer            | no         | Time between simulation steps in ms |
+| mapfile        |  string            | no         | Name of the associated map file without simulation path |
+| targets       |  list           | no         | List of all targets. At least one!|
+| walkers       |  list           | no         | List of all walker|
+| num_rnd_walkers       |  integer           | yes         | Number of random distributed walker. Set to zero to disable |
+| rnd_walkers_target        |  string            | yes         | Target of random spawned walker. Leave blank for a random target |
+| rnd_walkers_direction        |  integer            | yes         | Start direction that random spawned walker will follow. Leave blank for a random start direction  |
+| rnd_walkers_time_min        |  integer            | no         | Determines the minimum time steps for a random walker to follow its start direction |
+| rnd_walkers_time_max        |  integer            | no         | Determines the maximum time steps for a random walker to follow its start direction |
+
+
+
+
+
+
 
 License
 -------
